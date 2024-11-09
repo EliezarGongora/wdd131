@@ -2,74 +2,73 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-  
-  body{
-      margin: 5px;
-  }
+}
 
-  header{
+body {
+    margin: 5px;
+}
+
+header {
     /* margin: 5px; */
-  }
-  
-  #headername{
-      background-color: gray;
-      padding: 25px;
-      text-align: center;
-  }
-  
-  header ul{
-      display: flex;
-      background-color: black;
-      list-style: none;
-  
-  }
-  
-  header li{
-      flex: 1 1 auto;
-      padding: 15px;
-      text-align: center;
-      /* text-decoration: none; */
-  
-  }
-  
-  header a{
-      color: azure;
-      /* display: flex; */
-      /* margin: 10px; */
-      /* text-decoration: none; */
-  }
-  
-  main{
+}
+
+#headername {
+    background-color: gray;
+    padding: 25px;
+    text-align: center;
+}
+
+header ul {
+    display: flex;
+    background-color: black;
+    list-style: none;
+
+}
+
+header li {
+    flex: 1 1 auto;
+    padding: 15px;
+    text-align: center;
+    /* text-decoration: none; */
+
+}
+
+header a {
+    color: azure;
+    /* display: flex; */
+    /* margin: 10px; */
+    /* text-decoration: none; */
+}
+
+main {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    text-align: center; 
+    text-align: center;
     column-gap: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
 
-  }
+}
 
-  /* main h2{
+/* main h2{
     background-color: gray;
     
   } */
-  
-  #section1{
-      background-color: lightblue;
-      border-radius: 10px;
 
-  }
-  
-  #section2{
-      background-color: aquamarine;
-      border-radius: 10px;
+#section1 {
+    background-color: lightblue;
+    border-radius: 10px;
 
-  }
-  
-  footer{
+}
+
+#section2 {
+    background-color: aquamarine;
+    border-radius: 10px;
+
+}
+
+footer {
     background-color: blueviolet;
-    text-align: center;  
+    text-align: center;
     /* margin: 5px; */
 }
-  
