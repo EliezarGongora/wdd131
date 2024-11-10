@@ -11,6 +11,10 @@ body {
     font-weight: 400;
 }
 
+ nav a:hover{
+    text-decoration:overline;
+ }
+
 #headername {
     background-color: gray;
     padding: 25px;
