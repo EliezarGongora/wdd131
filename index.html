@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - Eliezar Gongora</title>
     <meta desciption="WDD 131 - Dynamic Web Fundamentals - Eliezar Gongora - this is the main page of the introduction">
-    <meta author="">
+    <meta author="Eliezar-Gongora">
     <link rel="stylesheet" href="styles/base.css">
 </head>
 
@@ -25,23 +25,31 @@
     </header>
 
     <main>
-        <section id="section1">
+        <section class="card1">
             <h2>About me</h2>
-            <h3>hola este es un ejemplo de lo que tengo que hacer </h3>
+            <h3 id="description">My name is Eliezar. I was born and raised in El Salvador but, while serving my mission in Guatemala, I met my now wife and moved to the lovely state of Idaho. We have a comfortable home that we share with our dog named Coloso. In my spare time I love to play with my 3D printer and watching movies with my wife.
+            <img src="images/profile.webp" alt="profile">
+        </h3>
 
         </section>
 
-        <section id="section2">
+        <section class="card2">
             <h2>Web Dev Resources</h2>
-            <h3>hola este es un ejemplo de lo que tengo que hacer </h3>
-
+            <p>
+                <ul>
+                    <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+                    <li><a href="https://github.com/">Github</a></li>
+                    <li><a href="https://www.siegemedia.com/contrast-ratio?ref=frontendchecklist#white-on-%23702963">Constrast Ratio</a></li>
+                    <li><a href="https://cloudconvert.com/webp-converter">Webp-converter</a></li>
+                </ul>
+            </p>
         </section>
 
     </main>
 
     <footer>
-        <p>&copy; 2024 Eliezar Gongora</p>
-        <p id="lastModified"></p>
+        <p>&copy;<span id="year"></span> |  Eliezar Gongora   | Idaho</p>
+        <p>Last Modified <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/getdates.js"></script>
     
