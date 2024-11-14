@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 15px;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+header, main, footer{
+    max-width: 640px;
+    margin: 16px auto;
+    border: 16px solid #997a7a;
+    padding: 16px;
+    background-color: #ffcedb;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 16px;
+}
+
+section{
+    padding: 16px;
+    background-color: whitesmoke;
+}
