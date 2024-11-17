@@ -32,12 +32,6 @@ header  h1{
 
 }
 
-/* header li {
-    flex: 1 1 auto;
-    padding: 15px;
-    text-align: center;
-} */
-
 nav li:hover{
     background-color: rgba(255,255,255, 0.5);
 }
@@ -54,7 +48,6 @@ nav a{
 /* button */
 
 #menu {
-    display: block;
     font-weight: 400;
 	font-size: 25px;
 	border: 0;
@@ -75,12 +68,6 @@ nav a{
 	display: flex; 
 }
 
-.nav a{
-    font-size: 50px;
-	display: flex;
-    flex-direction: row;
-}
-
 nav ul{
     display: none;
     display: grid;
@@ -88,8 +75,6 @@ nav ul{
     list-style: none;
     margin:0;
 }
-
-
 
 
 
@@ -113,6 +98,8 @@ img{
     height: 300px;
     border-radius: 5px;
 }
+
+
 
 /* footer */
 
