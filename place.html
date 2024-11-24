@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 131 - Dynamic Web Fundamentals - Eliezar Gongora</title>
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Eliezar Gongora - this is the main page of the introduction">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@0;1&family=Doto:wght@100..900&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    
+        <meta name="author" content="Eliezar Gongora">
+        <link rel="stylesheet" href="styles/place.css">
+    </head>
+<body>
+    
+    <header>
+        <h1>El Salvador</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/elsalvador-med.webp" media="(max-width: 400px)">
+                <img src="images/elsalvador-large.webp" alt="san salvador" width="928" height="600">
+            </picture>
+            
+            <div id="data">
+                <h2>Data</h2>
+                <p>Area: 8,124 mi²</p>
+                <p>Population: 6.365 millones</p>
+                <p>Capital: San Salvador</p>
+                <p>Languages: spanish</p>
+                <p>Currency: U.S. Dollar, Bitcoin</p>
+                <p>Time Zone: GMT-6</p>
+            </div>
+    
+            <div id="weather">
+                <h2>Weather</h2>
+                <img src="images/weather.svg" alt="weather icon" max-width="100" >
+                <p>Temperature: <span id="temp"></span></p>
+                <p>Conditions: Partly Sunny</p>
+                <p>Wind: <span id="windspeed"></span></p>
+                <p>Wind Chill: <span id="windchill"></span></p>
+            </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> |  Eliezar Gongora   | Idaho</p>
+        <p>Last Modified <span id="lastModified"></span></p>
+    </footer>
+    <script defer src="scripts/getdates.js"></script>
+    <script defer="scripts/place.js"></script>
+
+</body>
+</html>
