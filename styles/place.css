@@ -46,7 +46,9 @@ footer {
     text-align: center;
 }
 
-
+nav li:hover{
+    background-color: rgba(255,255,255, 0.5);
+}
 /* larger screen */
 
 @media screen and (min-width: 700px) {
