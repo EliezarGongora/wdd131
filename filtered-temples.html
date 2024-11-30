@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Picture Album</title>
+    <meta name="author" content="Eliezar Gongora">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Eliezar Gongora - this is the Picture Album assignment">
+
+
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Temple Album</h1>
+        <nav>
+            <button id="hamburger" aria-label="Open Menu">☰</button>
+            <ul id="menu">
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="old">Old</a></li>
+                <li><a href="#" id="new">New</a></li>
+                <li><a href="#" id="large">Large</a></li>
+                <li><a href="#" id="small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="temple-container">
+
+    </main>
+
+
+
+    <footer>
+        <p>&copy;<span id="year"></span> |  Eliezar Gongora   | Idaho</p>
+        <p>Last Modified <span id="lastModified"></span></p>
+    </footer>
+    <script defer src="scripts/getdates.js"></script>
+    <script defer src="scripts/filtered-temples.js"></script>
+    <script defer src="scripts/temples.js"></script>
+</body>
+</html>
