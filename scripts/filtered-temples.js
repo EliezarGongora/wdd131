@@ -82,7 +82,7 @@ const temples = [
   ];
   
   document.addEventListener("DOMContentLoaded", () => {
-    const templeContainer = document.getElementById("temple-container");
+    const templeContainer = document.getElementById("container");
   
     function displayTemples(filteredTemples) {
       templeContainer.innerHTML = ""; 
@@ -104,31 +104,29 @@ const temples = [
     displayTemples(temples);
   
     document
-      .getElementById("home")
+      .getElementById("Home")
       .addEventListener("click", () => displayTemples(temples));
-    document.getElementById("old").addEventListener("click", () => {
+    document.getElementById("Old").addEventListener("click", () => {
       const oldTemples = temples.filter(
         (t) => new Date(t.dedicated).getFullYear() < 1900
       );
       displayTemples(oldTemples);
     });
-    document.getElementById("new").addEventListener("click", () => {
+    document.getElementById("New").addEventListener("click", () => {
       const newTemples = temples.filter(
         (t) => new Date(t.dedicated).getFullYear() > 2000
       );
       displayTemples(newTemples);
     });
-    document.getElementById("large").addEventListener("click", () => {
+    document.getElementById("Large").addEventListener("click", () => {
       const largeTemples = temples.filter((t) => t.area > 90000);
       displayTemples(largeTemples);
     });
-    document.getElementById("small").addEventListener("click", () => {
+    document.getElementById("Small").addEventListener("click", () => {
       const smallTemples = temples.filter((t) => t.area < 10000);
       displayTemples(smallTemples);
     });
   
   
-    // document.getElementById("currentyear").textContent = new Date().getFullYear();
-    // document.getElementById("lastModified").textContent = document.lastModified;
   });
   
