@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(181, 181, 252);
+ }
+
+main h1{
+    margin: 10px;
+}
+
+ main h2{
+    margin: 30px;
+    color: rgb(100, 100, 238);
+ }
+
+ main a{
+    color: rgb(92, 92, 228);
+ }
+
+ main{
+    background-color: rgb(229, 229, 245);
+ }
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(181, 181, 252);
+    text-align: center;
+}
