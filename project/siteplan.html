@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 - Picture Album</title>
+    <title>WDD 131 - ES photography</title>
     <meta name="author" content="Eliezar Gongora">
-    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Eliezar Gongora - this is the Picture Album assignment">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Eliezar Gongora - Website for a business">
 
 
     <link rel="stylesheet" href="styles/siteplan.css">
+    <link rel="stylesheet" href="styles/larger.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        <h1>Site Plan</h1>
+
+        <h1>ES Photograpy</h1>
+            <button type="button" id="menu"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="form.html">Leave a review</a></li>
+                <li><a href="siteplan.html">Site plan</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -52,6 +64,7 @@
         <p>&copy;<span id="year"></span> |  Eliezar Gongora   | Idaho</p>
         <p>Last Modified <span id="lastModified"></span></p>
     </footer>
-    <script defer src="../scripts/getdates.js"></script>
+    <script defer src="scripts/getdates.js"></script>
+    <script defer src="scripts/button.js"></script>
 </body>
 </html>

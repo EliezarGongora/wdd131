@@ -1,0 +1,38 @@
+
+@media screen and (min-width: 600px) {
+
+    header .navigation  a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navigation ul, a, li{
+        display: flex;
+		justify-content: flex-end;
+		flex-direction: row;
+	}
+
+
+	nav a {
+        display: block;
+		flex: 1 1 100%;
+        border: none;
+	}
+
+    nav.open {
+        display: flex;
+    }
+
+	header #menu {
+		display: none;
+	}
+
+    #card2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: rgb(181, 181, 252);
+        border-radius: 10px;
+        margin-bottom: 25px;
+    }}

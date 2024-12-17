@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - ES photography</title>
+    <meta name="author" content="Eliezar Gongora">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Eliezar Gongora - Website for a business">
+
+
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+            <h1>ES Photography</h1>
+                <button type="button" id="menu"></button>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="form.html">Leave a review</a></li>
+                    <li><a href="siteplan.html">Site plan</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main >
+
+        <h1>Review form</h1>
+
+        <form method="get" action="review.html">
+            <fieldset>
+                <label>Session*
+                    <select name="productName" id="productName" required>
+                        <option value="">Select a Product...</option>
+                    </select>
+                </label>
+            </fieldset>
+    
+            <fieldset>
+                <div>Overall Rating*</div>
+                <label><input type="radio" id="onestar" name="rating" required>&star;</label>
+                <label><input type="radio" id="twostar" name="rating" required>&star; &star;</label>
+                <label><input type="radio" id="threestar" name="rating" required>&star; &star; &star;</label>
+                <label><input type="radio" id="fourstar" name="rating" required>&star; &star; &star; &star;</label>
+                <label><input type="radio" id="fivestar" name="rating" required>&star; &star; &star; &star; &star;</label>
+            </fieldset>
+    
+            <fieldset>
+                <label>Photo session date*<input type="date" id="date" name="installation" required></label>
+            </fieldset>
+    
+            <fieldset>
+                <div>Are you happy with the session?</div>
+                <span>(Check all the apply)</span>
+                <label><input type="checkbox" id="durability" name="durability" value="durability">No happy</label>
+                <label><input type="checkbox" id="easeOfUse" name="easeOfUse" value="easeOfUse">Happy</label>
+                <label><input type="checkbox" id="performance" name="performance" value="performance">Very happy</label>
+                <label><input type="checkbox" id="design" name="design" value="design">very happy, I will book another session</label>
+            </fieldset>
+    
+            <fieldset>
+                <label>Written Review <span>(Optional)</span><textarea id="review" name="review"></textarea></label>
+            </fieldset>
+    
+            <fieldset>
+                <label>Your Name <span>(Optional)</span><input type="text" id="name" name="userName"></label>
+            </fieldset>
+    
+            <input type="submit" value="Send Review">
+        
+            </form>
+    
+    
+
+    </main>
+
+
+    <footer>
+        <p>&copy;<span id="year"></span> |  Eliezar Gongora   | Idaho</p>
+        <p>Last Modified <span id="lastModified"></span></p>
+    </footer>
+    <script defer src="scripts/getdates.js"></script>
+    <script defer src="scripts/button.js"></script>
+    <script defer src="scripts/form.js"></script>
+</body>
+</html>

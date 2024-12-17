@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - ES photography</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Eliezar Gongora - Website for a business">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@0;1&family=Doto:wght@100..900&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <meta name="author" content="Eliezar Gongora">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+
+<body>
+
+    <header>
+        
+        <h1>ES Photography</h1>
+            <button type="button" id="menu"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="form.html">Leave a review</a></li>
+                <li><a href="siteplan.html">Site plan</a></li>
+            </ul>
+        </nav>
+</header>
+
+
+    <main>
+        <h1>Product Review Form</h1>
+
+        <p>THAKNS FOR THE REVIEW</p>
+        <p>Reviews Completed: <span id="visits"></span></p>
+    </main>
+
+<footer>
+    <p>&copy;<span id="year"></span> |  Eliezar Gongora   | Idaho</p>
+    <p>Last Modified <span id="lastModified"></span></p>
+</footer>
+<script defer src="scripts/getdates.js"></script>
+<script defer src="scripts/counter.js"></script>
+<script defer src="scripts/button.js"></script>
+
+</body>
+</html>

@@ -73,43 +73,78 @@ nav ul{
     margin:0;
 }
 
-/* * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 
-body {
-    margin: 15px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+/* main */
+
+
+main h1{
+    text-align: center;
 }
 
 header{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    justify-items: center;
-    align-items: center;
+    text-align: center;
     background-color: rgb(181, 181, 252);
- } */
+ }
 
-main h1{
-    margin: 10px;
+main {
+    max-width: 500px;
+    border: 2px solid rgb(38, 38, 218);
+    background-color: rgb(181, 181, 252);
 }
 
- main h2{
-    margin: 30px;
-    color: rgb(100, 100, 238);
- }
+fieldset {
+    border: none;
+}
 
- main a{
-    color: rgb(92, 92, 228);
- }
+label {
+    display: block;
+    padding-top: 10px;
+}
+span {
+    font-style: italic;
+}
 
- main{
-    background-color: rgb(229, 229, 245);
- }
+select,
+input[type="date"],
+textarea,
+input[type="text"]
+{
+    background-color: rgb(181, 181, 252);
+    border: 1px solid rgb(38, 38, 218);
+    ;
+    width: 95%;
+    max-width: 100%;
+    padding: 15px;
+    color: black;
+}
+
+input[type="radio"],
+input[type="checkbox"]
+{
+    margin-right: .25rem;
+}
+
+input[type="checkbox"]
+{
+    width: 20px;
+    height: 20px;
+}
+
+input[type="submit"]
+{
+
+    background-color: rgb(131, 131, 248);
+    border-style: none;
+    border: 3px solid rgb(38, 38, 218);
+    max-width: 500px;
+    width: 75%;
+    margin: -1rem 12.5% 2rem 12.5%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 15px;
+}
 
 
 footer {

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - ES photography</title>
+    <meta name="author" content="Eliezar Gongora">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Eliezar Gongora - Website for a business">
+
+
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>ES Photograpy</h1>
+        <button type="button" id="menu"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="form.html">Leave a review</a></li>
+                <li><a href="siteplan.html">Site plan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
+
+        <div class="hero">
+            <picture>
+                <img src="images/image2.webp" alt="image2" width="1280" height="640">
+            </picture>
+
+            <button type="button" id="bookasession">
+                <a href="gallery.html">Book a sesscion</a>
+            </button>
+        </div>
+
+        <div>
+            <section class="card1">
+                <h2 class="header">Weather</h2>
+
+                <p id="town"></p>
+                <img id="icon" src="" alt="">
+                <p id="temperature"></p>
+                <p id="descriptionw"></p>
+                <p>Number of Visits: <span id="visits"></span></p>
+            </section>
+        </div>
+
+
+        <section id="card2">
+
+            <div>
+                <img src="images/image6.webp" loading="lazy" height="600" width="400" alt="index1">
+                <p>The first photograph: The first photograph was taken in 1826 by Joseph Nicéphore Niépce, a French
+                    scientist, using a technique called heliography. The photograph was titled View from the Window at
+                    Le Gras.</p>
+            </div>
+
+            <div>
+                <img src="images/image7.webp" loading="lazy" height="600" width="400" alt="index1">
+                <p>Elements of a good photograph: The three most important elements of a good photograph are light,
+                    subject, and composition.</p>
+            </div>
+
+            <div>
+                <img src="images/image4.webp" loading="lazy" height="600" width="400" alt="index1">
+                <p>The word "photography": The word "photography" comes from Greek and means "to draw with light"</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> | Eliezar Gongora | Idaho</p>
+        <p>Last Modified <span id="lastModified"></span></p>
+    </footer>
+    <script defer src="scripts/getdates.js"></script>
+    <script defer src="scripts/button.js"></script>
+    <script defer src="scripts/counter.js"></script>
+    <script defer src="scripts/weather.js"></script>
+    <script defer src="scripts/book.js"></script>
+
+
+</body>
+
+</html>
